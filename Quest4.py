@@ -8,6 +8,8 @@ Média de Aproveitamento Conceito
   Entre 4.0 e zero (E)
 O algoritmo deve mostrar na tela as notas, a média, o conceito correspondente e a mensagem “APROVADO” se o conceito for A, B ou C ou “REPROVADO” se o conceito for D ou E.'''
 
+NOTA1 = float(input('Digite a nota da sua primeira avaliação: '))
+NOTA2 = float(input('Digite a nota da sua segunda avaliação: '))
 MEDIA = (NOTA1 + NOTA2) / 2
 
 if (0 <= MEDIA <= 4):
